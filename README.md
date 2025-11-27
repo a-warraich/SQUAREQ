@@ -1,6 +1,5 @@
 # SQUAREQ: Soft-actor-critic Quantum Reinforcement Learning for Enhanced Quantum-SVC (Tentative Name)
 
-SQUAREQ is a reinforcement learning-based approach for optimizing quantum machine learning feature maps using Soft Actor-Critic (SAC) and structure-based quantum metrics (QMetrics).
 
 # This project is a continuation of my previous year's research project, which I submitted at the International Science and Engineering Fair, where I implemented data-specific feature maps for Quantum Support Vector Classifiers. I will update periodically with any modifications to my research with data, model design, abstracts, etc. For now, here's an overview:
 
