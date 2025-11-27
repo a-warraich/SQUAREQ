@@ -275,10 +275,6 @@ See [GITHUB_SETUP.md](GITHUB_SETUP.md) for complete deployment guide including:
 
 This project is provided as-is for research and educational purposes.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📧 Contact
 
 For questions or issues, please open an issue on the repository.
