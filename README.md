@@ -1,10 +1,14 @@
-# SQUAREQ: Soft Actor-Critic Optimized Quantum Support Vector Classifier
+# SQUAREQ: Soft-actor-critic Quantum Reinforcement Learning for Enhanced Quantum-SVC (Tentative Name)
 
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![Qiskit](https://img.shields.io/badge/qiskit-0.45+-blue.svg)](https://qiskit.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+SQUAREQ is a reinforcement learning-based approach for optimizing quantum machine learning feature maps using Soft Actor-Critic (SAC) and structure-based quantum metrics (QMetrics).
 
-SQUAREQ is a reinforcement learning-based approach for optimizing quantum machine learning circuits using Soft Actor-Critic (SAC) and structure-based quantum metrics (QMetrics).
+This project is a continuation of my previous year's research project which I submitted at the International Science and Engineering Fair where I implemented custom, data-specific featuremaps for use in translating classical data into higher-dimensional Hilbert space for use in the quantum support vector classifier, a method I automate using the Soft Actor Critic. This repo is meant to organize my project code from the complete mess it was on my laptop. I will update periodically with any modifications to my research with data, model design, abstracts, etc. For now, here's an overview:
+
+Quantum Machine Learning offers a promising intersection of machine learning and quantum computing to offer more accurate and efficient answers to certain complex machine learning tasks compared to classical features. However, these models often underperform when applied to real world, classical datasets. Among a variety of issues with the evolving field of QML, one issue I noted was innaccuracies in the featuremapping process, the translation of classical data, in the form of bits, to qubits in higher dimensional hilbert space which provides one of the main advantages of QML. 
+
+Although I proposed a more accurate model of feature mapping compared to previous used methods of generic, one-size-fits all models like the ZZFeatureMap where I constructed my own data-specific feature maps and applied to the Quantum Support Vector Classifier (a variation of the classical SVC), this method took significantly longer compared to classical SVC's (a few seconds compared to an entire week for one datasets training), which significantly hinders real world applications where runtime affects cost. To improve this method, I propose automating the feature map design process using a Soft Actor Critic that decides what qubits (which correspond to features) to entangle, what rotational gates to use, and what angle to rotate these qubits at. I apply this to two different datasets involving earthquakes (an example of a real world application): one to predict earthquake magnitude as high or low (binary classification), and another to give earthquake alerts (multivariate classification) which entails methods such as forecasting the probability of earthquakes occuring in the future based on the data given. 
+
+One other important aspect of this research is the implementation of the QMetrics package by Silvie Illesova, Tomasz Rybotycki, and Martin Beseda which they published in their paper QMetric: Benchmarking Quantum Neural Networks Across Circuits, Features, and Training Dimensions (https://arxiv.org/html/2506.23765v1). Tweaking this code to fit my own needs allowed me to benchmark the performance of my feature maps without having to run a QSVC for every episode.
 
 ## 📊 View Notebooks
 
