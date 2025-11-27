@@ -8,7 +8,18 @@ Quantum Machine Learning offers a promising intersection of machine learning and
 
 Although I proposed a more accurate model of feature mapping compared to previous used methods of generic, one-size-fits all models like the ZZFeatureMap where I constructed my own data-specific feature maps and applied to the Quantum Support Vector Classifier (a variation of the classical SVC), this method took significantly longer compared to classical SVC's (a few seconds compared to an entire week for one datasets training), which significantly hinders real world applications where runtime affects cost. To improve this method, I propose automating the feature map design process using a Soft Actor Critic that decides what qubits (which correspond to features) to entangle, what rotational gates to use, and what angle to rotate these qubits at. I apply this to two different datasets involving earthquakes (an example of a real-world application): one to predict earthquake magnitude as high or low (binary classification), and another to give earthquake alerts (multivariate classification), which entails methods such as forecasting the probability of earthquakes occurring in the future based on the data given. 
 
-One other important aspect of this research is the implementation of the QMetrics package by Silvie Illesova, Tomasz Rybotycki, and Martin Besed,a which they published in their paper QMetric: Benchmarking Quantum Neural Networks Across Circuits, Features, and Training Dimensions (https://arxiv.org/html/2506.23765v1). Tweaking this code to fit my own needs allowed me to benchmark the performance of my feature maps without having to run a QSVC for every episode.
+One other important aspect of this research is the implementation of the QMetrics package by Silvie Illesova, Tomasz Rybotycki, and Martin Besed,a which they published in their paper QMetric: Benchmarking Quantum Neural Networks Across Circuits, Features, and Training Dimensions (https://arxiv.org/html/2506.23765v1). Tweaking this code to fit my own needs allowed me to benchmark the performance of my feature maps without having to run a QSVC for every episode. Scroll down for all the (not so but kinda) boring stuff.
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📊 View Notebooks
 
