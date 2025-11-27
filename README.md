@@ -2,7 +2,7 @@
 
 SQUAREQ is a reinforcement learning-based approach for optimizing quantum machine learning feature maps using Soft Actor-Critic (SAC) and structure-based quantum metrics (QMetrics).
 
-# This project is a continuation of my previous year's research project, which I submitted at the International Science and Engineering Fair, where I implemented data-specific feature maps for Quantum Support Vector Classifiers. This repo is designed to organize my project code from the complete mess it was on my laptop. I will update periodically with any modifications to my research with data, model design, abstracts, etc. For now, here's an overview:
+# This project is a continuation of my previous year's research project, which I submitted at the International Science and Engineering Fair, where I implemented data-specific feature maps for Quantum Support Vector Classifiers. I will update periodically with any modifications to my research with data, model design, abstracts, etc. For now, here's an overview:
 
 Quantum Machine Learning offers a promising intersection of machine learning and quantum computing to offer more accurate and efficient answers to certain complex machine learning tasks compared to classical features. However, these models often underperform when applied to real-world, classical datasets. Among a variety of issues with the evolving field of QML, one issue I noted was inaccuracies in the feature mapping process, the translation of classical data, in the form of bits, to qubits in a higher-dimensional Hilbert space, which provides one of the main advantages of QML. 
 
